@@ -16,3 +16,11 @@ function scuberGreetingForFeet(ride) {
     return 'This one is on me!'
   }
 }
+
+function ternaryCheckCity(city) {
+  if (city === "NYC") {
+    return 'OK, sounds good.'
+  } else {
+    return 'No go.'
+  }
+}
