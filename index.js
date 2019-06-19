@@ -3,3 +3,14 @@
 // ternaryCheckCity() — Use a ternary operator to return the correct response based on the desired destination of the passenger.
 
 // switchOnCharmFromTip() — Use a switch statement to return a different response based on the generosity of the passenger's tip.
+
+
+scuberGreetingForFeet(ride) {
+  if (ride > 2500) {
+    return 'No can do.'
+  } else if (ride > 2000) {
+    return 'I will gladly take your thirty bucks.'
+  } else if (ride <= 400) {
+    return 'This one is on me!'
+  }
+}
